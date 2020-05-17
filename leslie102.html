@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div id="paises"></div>
+  <script>
+    addEventListener('DOMContentLoaded', inicio);
+
+    function inicio() {
+      const paises = new Map([
+        ["Argentina", 45000000],
+        ["España", 46000000],
+        ["Brasil", 190000000],
+        ["Urugual", 3400000]
+      ]);
+
+      let cadena = '';
+      for (let [pais, cantidad] of paises) {
+        cadena += `<li>${pais} => ${cantidad}</li>`;
+      }
+      document.getElementById("paises").innerHTML = cadena;
+    }
+
+  </script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div id="paises"></div>
+  <script>
+    addEventListener('DOMContentLoaded', inicio);
+
+    function inicio() {
+      const paises = new Map([
+        ["Argentina", 45000000],
+        ["España", 46000000],
+        ["Brasil", 190000000],
+        ["Urugual", 3400000]
+      ]);
+
+      <ol>
+    <li>Argentina=45000000</li>
+    <li>Espana=46000000</li>
+    <li>Brasil=19000000</li>
+    <li>Urugual=34000000</li>
+    </ol>
+    
+    }
+
+  </script>
+</body>
+
+</html>
